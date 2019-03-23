@@ -34,7 +34,8 @@ class NavBar extends React.Component {
 	renderPageOptions() {
 		return Object.keys(this.props.pages).map(page => {
 			let pageValue = this.props.pages[page];
-			return <li 	className={this.getPageClass(pageValue)}
+			return <li 	
+						className={this.getPageClass(pageValue)}
 						onClick={this.handlePageChange.bind(this,pageValue)}	
 						key={pageValue}> {page} </li>;
 		});

@@ -2,6 +2,15 @@
   text-align: center;
 }
 
+html {
+  /*font-size: 15*/
+}
+@media only screen and (max-width: 560px) {
+  html {
+    font-size: 9px;
+  }
+}
+
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
@@ -29,9 +38,10 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin: 10.4rem 10%;
+  margin: 11.6rem 10%;
   color: white;
   height: 1000px;
+  padding-top: 0;
 }
 
 h1 {
@@ -42,6 +52,9 @@ h1 {
   font-family: Poppins, sans-serif;
   font-size: 1.8rem;
   color: #000;
+  height: 50px;
+  /*text*/
+  vertical-align: top;
 }
 
 div {
