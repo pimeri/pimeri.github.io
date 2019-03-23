@@ -2,12 +2,6 @@ import React from 'react';
 import './NavBar.css';
 
 
-const pages = {
-	'ABOUT':'about',
-	'SKILLS':'skills',
-	'PROJECTS':'projects',
-	'CONTACT':'contact'
-};
 
 class NavBar extends React.Component {
 	constructor(props) {

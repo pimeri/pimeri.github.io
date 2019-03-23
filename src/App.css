@@ -41,11 +41,16 @@ html {
   justify-content: space-around;
   flex-wrap: wrap;
   margin: 11.6rem 10%;
+  margin-top: 130px;
   color: white;
   height: 60%;
   padding-top: 0;
+  width: 100%;
+  margin-left: 0px;
 }
-
+p {
+  margin-left: 21%;
+}
 h1 {
   margin: 0px;
   padding: .99rem 0;
