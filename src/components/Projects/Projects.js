@@ -6,7 +6,12 @@ class Projects extends React.Component {
 
 
 	render() {
-		return <div> <p>I'm a Projects page</p> </div>
+		return <div> 
+					<img 	
+							width="40%"
+							src="http://pngimg.com/uploads/under_construction/under_construction_PNG46.png">
+					</img> 
+				</div>
 	}
 }
 

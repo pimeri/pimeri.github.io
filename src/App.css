@@ -32,7 +32,9 @@ html {
   color: #61dafb;
 }
 
-
+.App{
+  height:100%;
+}
 
 .CurrentPage {
   display: flex;
@@ -40,7 +42,7 @@ html {
   flex-wrap: wrap;
   margin: 11.6rem 10%;
   color: white;
-  height: 1000px;
+  height: 60%;
   padding-top: 0;
 }
 
@@ -59,10 +61,18 @@ h1 {
 
 div {
   background-color: #111;
+  margin-bottom: 0;
+  padding-bottom: 0;
+
+  height: 100%;
 }
 
 html {
   /*background-color: #111; */
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 0;
+  height: 100%;
 }
 /*
 @keyframes App-logo-spin {
