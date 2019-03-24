@@ -1,7 +1,33 @@
 
 .profile-pic {
-	width:20%;
+	/*width:70%;*/
+	/*width: 12rem;*/
+	width:100%;
 	/*margin-right:77%;*/
 	float:left;
 	/*margin-left:0%;*/
+	border-radius: 50px;
+}
+
+.profile-container {
+	width: 20%;
+	float:left;
+	/*height:;*/
+}
+
+.icon-container {
+	display:flex;
+	list-style-type: none;
+	/*margin-left: 0%;*/
+	/*margin-right: 0%;*/
+	/*padding-left: 0%;*/
+	padding-right: 0%;
+	/*margin-block-start: 0em;*/
+	padding-inline-start:5px;
+	/*margin: 0 5 10px 0;*/
+}
+
+.links {
+	margin: 2px 5px;
+
 }
