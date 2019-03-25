@@ -10,8 +10,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && cp -r ../personal-build/pimeri.github.io/.git/ ./build/",
-    "postbuild": "cd build",
+    "build": "react-scripts build",
+    "postbuild": "cp -r ./build/* ../",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
